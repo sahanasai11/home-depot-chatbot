@@ -9,7 +9,7 @@ Setup:
 - Install dependencies: `pip install -r requirements.txt`
 - Start Flask server: 
     - `export FLASK_APP=bot`
-    - `flask run -h localhost -p 8000` ()
+    - `flask run -h localhost -p 8000`
 - Download and go to ngrok application
     - `ngrok http 8000`
     - Copy the link next to forwarding- i.e. https://xxxx.ngrok.io
