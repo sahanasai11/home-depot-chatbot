@@ -17,6 +17,10 @@ Skills:
 Setup:
 - Create virtual environment: `python -m venv /path/to/new/virtual/environment`
 - Navigate to directory containing `venv`, and enter `source venv/bin/activate`
+- Set up Slack workspace using the Slack API: https://api.slack.com/authentication/basics
+- Create a Slack bot: https://api.slack.com/bot-users
+- Generate Open AI API key: https://platform.openai.com/account/api-keys
+
 - Create a `.env` file and input your Slack token, Signing Secret, and Open AI API key- refer to (https://api.slack.com/apis):
     - `SLACK_TOKEN=...`
     - `SIGNING_SECRET=...`
@@ -33,4 +37,4 @@ Setup:
     - Press "change" and paste the copied link from ngrok and append `slack/events` i.e. https://xxxx.ngrok.io/slack/events
     - Select save changes
 
-Type in slack workspace: https://app.slack.com/client/T05BRR7MN0P/C05C6S2E32P and you're good to go!
+Type in slack workspace and you're good to go!
