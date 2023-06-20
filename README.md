@@ -4,6 +4,8 @@ chatbot based off of Home Depot's website using the Langchain framework, Slack A
 agent used is a database agent that can perform SQL queries on any database. For the purpose of this project,
 a SQLite database is created containing data regarding Home Depot product information.
 
+![Alt Demo image of Home Depot Chatbot](demo.png)
+
 Skills:
 - Flask
 - Python
