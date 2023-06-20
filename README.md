@@ -1,6 +1,16 @@
 # home-depot-chatbot
 This repository contains a case study of the use of Large Language Models to serve as a customer service
-chatbot based off of Home Depot's website using the Langchain framework, Slack API, and Open AI API
+chatbot based off of Home Depot's website using the Langchain framework, Slack API, and Open AI API. The langchain
+agent used is a database agent that can perform SQL queries on any database. For the purpose of this project,
+a SQLite database is created containing data regarding Home Depot product information.
+
+Skills:
+- Flask
+- Python
+- API's
+- Selenium
+- Pandas
+- Langchain
 
 Setup:
 - Create virtual environment: `python -m venv /path/to/new/virtual/environment`
@@ -21,4 +31,4 @@ Setup:
     - Press "change" and paste the copied link from ngrok and append `slack/events` i.e. https://xxxx.ngrok.io/slack/events
     - Select save changes
 
-- Type in slack workspace: https://app.slack.com/client/T05BRR7MN0P/C05C6S2E32P and you're good to go!
+Type in slack workspace: https://app.slack.com/client/T05BRR7MN0P/C05C6S2E32P and you're good to go!
